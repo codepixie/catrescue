@@ -1,0 +1,15 @@
+<style>
+  .card {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+  }
+
+  @media (max-width: 991px) {
+    .card {
+      display: block;
+      width: 100%;
+      margin: 20px auto;
+    }
+  }
+</style>
